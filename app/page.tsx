@@ -228,7 +228,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-4">Help Your Child Discover Their Strengths Early</h2>
         <p className="mb-6">Book a consultation to understand learning patterns and career direction clarity.</p>
         <a
-          href="https://calendly.com/"
+          href="https://calendly.com/parimalg/15min"
           className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold"
         >
           Schedule Now
