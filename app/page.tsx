@@ -21,15 +21,15 @@ export default function Home() {
 
   const testimonials = [
     {
-      name: "Parent (Dallas)",
+      name: "Parent of 8 yrs old",
       text: "We finally understood our child’s natural strengths and stopped forcing the wrong learning path."
     },
     {
-      name: "Parent (Plano)",
+      name: "Parent of 16 yrs old",
       text: "It gave us clarity on education decisions and reduced a lot of confusion about future careers."
     },
     {
-      name: "Parent (Frisco)",
+      name: "Parent of 12 yrs old",
       text: "We now focus on strengths instead of weaknesses. Our child is more confident and motivated."
     }
   ];
@@ -128,7 +128,7 @@ export default function Home() {
       <section className="py-16 bg-white">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold mb-6">
-            Education is Not Just About Marks — It’s About Life Direction
+            Education is not just about marks — It’s About Life Direction
           </h2>
           <p className="text-gray-600 leading-relaxed">
             Most children follow the same education path, but not every child is built the same way.
