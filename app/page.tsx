@@ -103,7 +103,7 @@ export default function Home() {
 
             <div className="bg-blue-50 p-4 rounded-xl mb-6 text-sm text-gray-700">
               ✔ 15+ years experience<br/>
-              ✔ 1000+ children guided<br/>
+              ✔ 5000+ children & adults guided<br/>
               ✔ Practical, parent-focused recommendations
             </div>
 
@@ -206,7 +206,7 @@ export default function Home() {
       {/* ABOUT SECTION */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-5xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-8">About the Consultant</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">About us</h2>
 
           <div className="bg-white p-8 rounded-2xl shadow text-gray-700 leading-relaxed">
             <p className="mb-4">
