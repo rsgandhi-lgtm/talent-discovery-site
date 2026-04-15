@@ -210,7 +210,7 @@ export default function Home() {
 
           <div className="bg-white p-8 rounded-2xl shadow text-gray-700 leading-relaxed">
             <p className="mb-4">
-              With over <span className="font-semibold">15 years of experience</span> and more than <span className="font-semibold">1000+ children and parents guided</span>, this consultation approach is built on practical insights gained from working closely with families.
+              With over <span className="font-semibold">15 years of experience</span> and more than <span className="font-semibold">5000+ children and parents guided</span>, this consultation approach is built on practical insights gained from working closely with families.
             </p>
 
             <p className="mb-4">
