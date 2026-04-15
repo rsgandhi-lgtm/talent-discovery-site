@@ -214,7 +214,7 @@ export default function Home() {
             </p>
 
             <p className="mb-4">
-              Having worked extensively with Indian families, the approach understands the unique challenges parents face — balancing academics, extracurriculars, and long-term career expectations, especially in a competitive environment.
+              Having worked extensively with parents, children, teens, the approach understands the unique challenges parents face — balancing academics, extracurriculars, and long-term career expectations, especially in a competitive environment.
             </p>
 
             <p className="mb-4">
