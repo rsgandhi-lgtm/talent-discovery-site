@@ -111,12 +111,12 @@ export default function Home() {
               <a href="#booking" className="bg-blue-600 text-white px-6 py-3 rounded-lg">
                 Book Consultation
               </a>
-              <button
-                onClick={() => setShowPopup(true)}
-                className="border px-6 py-3 rounded-lg"
-              >
-                Free Guide
-              </button>
+             // <button
+             //   onClick={() => setShowPopup(true)}
+             //   className="border px-6 py-3 rounded-lg"
+             // >
+             //   Free Guide
+             // </button>
             </div>
           </div>
 
