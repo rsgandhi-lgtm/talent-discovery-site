@@ -65,7 +65,7 @@ export default function Home() {
           <div className="bg-white p-6 rounded-xl w-[90%] max-w-md">
             <h2 className="text-xl font-bold mb-2">Free Guide</h2>
             <p className="text-gray-600 mb-4">
-              Enter your email to receive: Strength-Based Parenting & Career Direction Guide
+              Discover 10 signs that reveal your child’s natural learning style and strengths.
             </p>
             <input
               className="w-full border p-2 rounded mb-3"
@@ -77,7 +77,7 @@ export default function Home() {
               onClick={handleLeadSubmit}
               className="bg-blue-600 text-white px-4 py-2 rounded w-full"
             >
-              Download Guide
+              Download Free Guide
             </button>
             <button
               onClick={() => setShowPopup(false)}
@@ -93,14 +93,20 @@ export default function Home() {
       <section className="bg-gradient-to-br from-blue-50 to-white py-20">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Build a Stronger Future for Your Child Through Strength-Based Understanding
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+              Is Your Child Underperforming — Or Just Misunderstood?
             </h1>
-            <p className="text-gray-600 mb-6">
-              Every child has unique strengths that shape how they learn, make decisions, and grow.
-              When parents understand these strengths early, they can guide education and career choices
-              with clarity instead of confusion.
+            <p className="text-gray-600 mb-6 text-lg">
+              Most children are not lacking ability — they are simply not learning in a way that matches their natural strengths.
+              When you understand how your child thinks and learns, everything changes — from confidence to career direction.
             </p>
+
+            <div className="bg-blue-50 p-4 rounded-xl mb-6 text-sm text-gray-700">
+              ✔ 15+ years experience<br/>
+              ✔ 1000+ children guided<br/>
+              ✔ Practical, parent-focused recommendations
+            </div>
+
             <div className="flex gap-4">
               <a href="#booking" className="bg-blue-600 text-white px-6 py-3 rounded-lg">
                 Book Consultation
@@ -116,72 +122,108 @@ export default function Home() {
 
           <div>
             <img
-			  src="/images/child-learning.jpg"
-			  alt="child learning"
-			  className="rounded-2xl shadow-lg"
-			/>
+              src="/images/child-learning.jpg"
+              alt="child learning"
+              className="rounded-2xl shadow-lg"
+            />
           </div>
         </div>
       </section>
 
-      {/* LIFE + CAREER CONTEXT */}
-      <section className="py-16 bg-white">
+      {/* PROBLEM SECTION */}
+      <section className="py-16 bg-white text-center">
+        <div className="max-w-4xl mx-auto px-6">
+          <h2 className="text-3xl font-bold mb-6">
+            If You’re Feeling Confused About Your Child’s Future — You’re Not Alone
+          </h2>
+          <div className="text-gray-600 space-y-3">
+            <p>• "My child is smart but not performing well"</p>
+            <p>• "They lose focus or get frustrated easily"</p>
+            <p>• "I don’t know which path or career suits them"</p>
+            <p className="font-semibold text-gray-800 mt-4">
+              The issue is not ability — it’s lack of clarity.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CONTEXT */}
+      <section className="py-16 bg-gray-50">
         <div className="max-w-5xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold mb-6">
-            Education is not just about marks — It’s About Life Direction
+            Education Should Be Aligned to the Child — Not the System
           </h2>
           <p className="text-gray-600 leading-relaxed">
-            Most children follow the same education path, but not every child is built the same way.
-            Some excel through visual learning, some through logic, some through creativity, and some
-            through hands-on experience. When this alignment is missing, children often lose confidence,
-            motivation, or clarity about their future.
+            Every child learns differently — some visually, some analytically, some creatively.
+            When learning style and education path are misaligned, children lose confidence and direction.
             <br /><br />
-            Strength-based understanding helps parents shift from pressure-based parenting to
-            clarity-based guidance — focusing on what works best for the child instead of what works for everyone else.
+            Strength-based understanding helps you guide your child with clarity instead of pressure.
           </p>
-		  <div>
-            <img
-			  src="/images/career-path.jpg"
-			  alt="career path"
-			  className="rounded-2xl shadow-lg"
-			/>
-          </div>
+          <img
+            src="/images/career-path.jpg"
+            alt="career path"
+            className="rounded-2xl shadow-lg mt-8"
+          />
         </div>
       </section>
 
-      {/* HOW DMIT STYLE INSIGHT HELPS (NEUTRAL POSITIONING) */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-5xl mx-auto px-6">
+      {/* SOLUTION */}
+      <section className="py-16 bg-white">
+        <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-10">
-            How Strength-Based Insight Consultation Helps
+            How This Consultation Helps You
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-white p-6 rounded-xl shadow">
-              <h3 className="font-semibold text-lg mb-2">Learning Awareness</h3>
+            <div className="bg-gray-50 p-6 rounded-xl shadow">
+              <h3 className="font-semibold text-lg mb-2">Understand Learning Style</h3>
               <p className="text-gray-600">
-                Understand how your child naturally learns and processes information.
+                Know how your child naturally absorbs and processes information.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-xl shadow">
-              <h3 className="font-semibold text-lg mb-2">Education Alignment</h3>
+            <div className="bg-gray-50 p-6 rounded-xl shadow">
+              <h3 className="font-semibold text-lg mb-2">Make Better Education Decisions</h3>
               <p className="text-gray-600">
-                Choose subjects, learning methods, and environments that fit your child.
+                Align subjects, activities, and learning methods correctly.
               </p>
             </div>
-            <div className="bg-white p-6 rounded-xl shadow">
-              <h3 className="font-semibold text-lg mb-2">Career Direction</h3>
+            <div className="bg-gray-50 p-6 rounded-xl shadow">
+              <h3 className="font-semibold text-lg mb-2">Get Career Direction Clarity</h3>
               <p className="text-gray-600">
-                Connect natural strengths with long-term career possibilities and interests.
+                Connect strengths with long-term career possibilities.
               </p>
             </div>
           </div>
-		  <div>
-            <img
-			  src="/images/happy-student.jpg"
-			  alt="happy student"
-			  className="rounded-2xl shadow-lg"
-			/>
+
+          <img
+            src="/images/happy-student.jpg"
+            alt="happy student"
+            className="rounded-2xl shadow-lg mt-10"
+          />
+        </div>
+      </section>
+
+      {/* ABOUT SECTION */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-5xl mx-auto px-6">
+          <h2 className="text-3xl font-bold text-center mb-8">About the Consultant</h2>
+
+          <div className="bg-white p-8 rounded-2xl shadow text-gray-700 leading-relaxed">
+            <p className="mb-4">
+              With over <span className="font-semibold">15 years of experience</span> and more than <span className="font-semibold">1000+ children and parents guided</span>, this consultation approach is built on practical insights gained from working closely with families.
+            </p>
+
+            <p className="mb-4">
+              Having worked extensively with Indian families, the approach understands the unique challenges parents face — balancing academics, extracurriculars, and long-term career expectations, especially in a competitive environment.
+            </p>
+
+            <p className="mb-4">
+              Now bringing this experience to families in the U.S., especially in the DFW area, the focus is on helping parents move from confusion and pressure to clarity and confidence in guiding their child.
+            </p>
+
+            <p>
+              The goal is simple: <span className="font-semibold">help every child grow in a way that aligns with their natural strengths</span>, while giving parents a clear and structured direction.
+            </p>
           </div>
         </div>
       </section>
@@ -198,35 +240,23 @@ export default function Home() {
               </div>
             ))}
           </div>
-		   <div>
-            <img
-			  src="/images/parent-guidance.jpg"
-			  alt="parent guidance"
-			  className="rounded-2xl shadow-lg"
-			/>
-          </div>
-        </div>
-      </section>
 
-      {/* FAQ */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-10">Frequently Asked Questions</h2>
-          <div className="space-y-4">
-            {faqs.map((f, i) => (
-              <div key={i} className="bg-white p-5 rounded-lg shadow">
-                <h3 className="font-semibold">{f.q}</h3>
-                <p className="text-gray-600 mt-2">{f.a}</p>
-              </div>
-            ))}
-          </div>
+          <img
+            src="/images/parent-guidance.jpg"
+            alt="parent guidance"
+            className="rounded-2xl shadow-lg mt-10"
+          />
         </div>
       </section>
 
       {/* CTA */}
       <section id="booking" className="py-20 bg-blue-600 text-white text-center">
-        <h2 className="text-3xl font-bold mb-4">Help Your Child Discover Their Strengths Early</h2>
-        <p className="mb-6">Book a consultation to understand learning patterns and career direction clarity.</p>
+        <h2 className="text-3xl font-bold mb-4">
+          Give Your Child the Right Direction Early
+        </h2>
+        <p className="mb-6">
+          Book a consultation and gain clarity on learning, education, and career direction.
+        </p>
         <a
           href="https://calendly.com/parimalg/15min"
           className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold"
